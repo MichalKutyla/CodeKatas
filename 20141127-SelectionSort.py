@@ -36,4 +36,10 @@ class SelectionSortTests(unittest.TestCase):
         a = [2, 1, 3]
         self.failUnlessEqual(sort(a), [1, 2, 3])
 
+def main():
+    unittest.main()
+
+
+if __name__ == '__main__':
+    main()
 
